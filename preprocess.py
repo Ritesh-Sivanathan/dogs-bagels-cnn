@@ -22,9 +22,6 @@ def get_preprocessed(dogs_path, bagels_path):
     image_paths = [file for file in os.listdir()]
     processed_dog_images = preprocess_image(image_paths)
     dog_labels = [1] * len(processed_dog_images)
-    # print(processed_dog_images)
-
-    # preprocessing bagels
 
     os.chdir(bagels_path)
 
