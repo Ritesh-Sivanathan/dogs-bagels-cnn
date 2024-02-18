@@ -23,7 +23,7 @@ model = Sequential([
     Conv2D(64, (3, 3), activation='relu'),
     Flatten(),
     Dense(64, activation='relu'),
-    Dense(1, activation='sigmoid')  # Output layer for binary classification
+    Dense(1, activation='sigmoid') 
 ])
 
 model.compile(optimizer='adam',
@@ -34,11 +34,6 @@ dataset = dataset.shuffle(len(all_datasets))
 validation_size = int(0.2 * len(all_datasets))
 train_dataset = dataset.skip(validation_size)
 validation_dataset = dataset.take(validation_size)
-
-# print(validation_dataset)
-
-# print(train_dataset) # <_SkipDataset element_spec=(TensorSpec(shape=(None, 406, 612, 3), dtype=tf.float32, name=None), TensorSpec(shape=(None,), dtype=tf.string, name=None))>
-# print(validation_dataset) # <_TakeDataset element_spec=(TensorSpec(shape=(None, 406, 612, 3), dtype=tf.float32, name=None), TensorSpec(shape=(None,), dtype=tf.string, name=None))>
 
 history = model.fit(train_dataset, epochs=10, validation_data=validation_dataset)
 test_loss, test_acc = model.evaluate(dataset)
