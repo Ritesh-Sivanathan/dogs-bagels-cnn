@@ -1,4 +1,4 @@
-# Dogs versus Bagels Convolutional Neural Network
+# Dogs versus Bagels (Convolutional Neural Network?)
 
 
 ## About
