@@ -1,8 +1,8 @@
-# Dogs versus Bagels (Convolutional Neural Network?)
+# Dogs versus Bagels 
 
 
 ## About
-#### i believe this is a convolutional neural network. to be honest, i thought it would be cool to try and build something that can tell dogs apart from bagels since some are pretty similar in colour. I don't really know anything about ai/ml/nns yet. i built this with 0 knowledge of tensorflow or anything mentioned before, took about 4 hours. 
+#### i thought it would be cool to try and build something that can tell dogs apart from bagels since some are pretty similar in colour. I don't really know anything about ai/ml/nns yet. i built this with 0 knowledge of tensorflow or anything mentioned before, took about 4 hours. 
 
 ## How I built this
 #### just using some tensorflow documentation and lots (and lots and lots) of stackoverflow for the countless meaningless errors I got
