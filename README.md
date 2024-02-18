@@ -1,22 +1,12 @@
-# dogs-vs-bagels
-
-❗❗❗❗ -> this is not the classic curled up dog vs bagel. it is pretty easy to distinguish between the dogs and the bagels provided. I made this to learn a bit about tensorflow, neural networks and whatnot. i will probably do something more difficult like that next ❗❗❗❗
-
-my first convolutional neural network ever
-took 4 hours. started with 0 knowledge on anything ai/ml/nn related (my python knowledge carried)
-it's built with tensorflow and keras
-i trained it on a total of 10 bagels and 10 dogs ( i know )
-my computer already sucks and i don't have enough storage or computing power or will to do anything more
-
-this is just the first out of many projects i'll do like this. i just wanted to prove to myself that qdd actually works
-
-also i didn't use any tutorials or guides or anything i just used a lot of documentation and lots (and lots and lots) of stackoverflow for the errors
-
-to run on ur own machine:
-1. pip install tensorflow
-2. run main.py
-3. run classifier.py
-4. should work pls tell me if it's broken so i can fix it
+# Dogs versus Bagels Convolutional Neural Network
 
 
-okay thanks for reading
+## About
+#### i believe this is a convolutional neural network. to be honest, i thought it would be cool to try and build something that can tell dogs apart from bagels since some are pretty similar in colour. I don't really know anything about ai/ml/nns yet. i built this with 0 knowledge of tensorflow or anything mentioned before, took about 4 hours. 
+
+## How I built this
+#### just using some tensorflow documentation and lots (and lots and lots) of stackoverflow for the countless meaningless errors I got
+
+## Specifics
+#### - IT is trained on a whopping 20 images of bagels and dogs, hand selected by me. i'll probably build something similar with more closer looking pictures next, like a curled up dog vs a bagel (much more difficult to tell apart). The latest model I trained had an accuracy of 91%. it works well in terms of how I built it and it's simplicity
+- to try just clone the repo, make sure you have tensorflow (2.15) installed, run model.py then classifier.py. upload an image of either a dog or a bagel with a white background (not sure how it works on non-white backgrounds, i've yet to try that) into the models directory. then run classifier.py and it hopefully should work. i tried it a few times
