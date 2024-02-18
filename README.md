@@ -12,7 +12,11 @@ this is just the first out of many projects i'll do like this. i just wanted to 
 
 also i didn't use any tutorials or guides or anything i just used a lot of documentation and lots (and lots and lots) of stackoverflow for the errors
 
-to run on ur own machine i think it's just tensorflow you need to install:
-pip install tensorflow
+to run on ur own machine:
+1. pip install tensorflow
+2. run main.py
+3. run classifier.py
+4. should work pls tell me if it's broken so i can fix it
+
 
 okay thanks for reading
