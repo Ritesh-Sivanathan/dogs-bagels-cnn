@@ -1,7 +1,9 @@
 # dogs-vs-bagels
 
+❗❗❗❗ -> this is not the classic curled up dog vs bagel. it is pretty easy to distinguish between the dogs and the bagels provided. I made this to learn a bit about tensorflow, neural networks and whatnot. i will probably do something more difficult like that next ❗❗❗❗
+
 my first convolutional neural network ever
-started this about 4 hours ago with 0 knowledge on anything ai/ml/nn related (my python knowledge carried)
+took 4 hours. started with 0 knowledge on anything ai/ml/nn related (my python knowledge carried)
 it's built with tensorflow and keras
 i trained it on a total of 10 bagels and 10 dogs ( i know )
 my computer already sucks and i don't have enough storage or computing power or will to do anything more
