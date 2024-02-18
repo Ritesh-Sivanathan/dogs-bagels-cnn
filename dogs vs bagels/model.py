@@ -1,10 +1,11 @@
 from keras import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 import tensorflow as tf
+import os
 
 from preprocess import preprocess_image, get_preprocessed
 
-processor = get_preprocessed('C:\\Users\\User\\Documents\\Development\\AI\\Tinygrad\\dogs vs bagels\\dogs', 'C:\\Users\\User\\Documents\\Development\\AI\\Tinygrad\\dogs vs bagels\\bagels')
+processor = get_preprocessed(f'{os.getcwd()}\\dogs vs bagels\\dogs', f'{os.getcwd()}\\dogs vs bagels\\bagels')
 bagel_set, dog_set = processor[0]
 all_datasets = bagel_set + dog_set
 bagel_label, dog_label = processor[1]
@@ -40,4 +41,4 @@ test_loss, test_acc = model.evaluate(dataset)
 
 print('Test accuracy:', test_acc)
 
-model.save('C:\\Users\\User\\Documents\\Development\\AI\\Tinygrad\\dogs vs bagels\\model\\model_weights.h5')
+model.save(f'{os.getcwd()}\\dogs vs bagels\\model\\model_weights.h5')
